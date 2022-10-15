@@ -1,0 +1,79 @@
+html, body {
+    padding: 0;
+    margin: 0; 
+}
+  
+body {
+    background-color: #fff; 
+}
+
+.menu {
+    position: relative;
+    margin: 100px auto;
+    width: 85%;
+    padding-bottom: 25px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+    @media (min-width: 660px) {
+      .menu {
+        flex-direction: unset;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } 
+}
+
+    @media (min-width: 740px) {
+      .menu {
+        max-width: 670px; 
+    } 
+}
+  
+.menu__title {
+    width: 100%; 
+    padding-left: 290px;
+    font-family: 'Kaushan Script', cursive;
+}
+  
+.category {
+    width: 80%;
+    margin: 15px 0 10px; 
+}
+
+    @media (min-width: 660px) {
+        .category {
+          width: 230px;
+          margin: 15px 0 20px; 
+        } 
+    }
+    
+.category__title {
+    margin: 0 0 25px;
+    font-family: 'Kaushan Script', cursive; 
+}
+  
+.menu__item {
+    margin-bottom: 15px; 
+}
+  
+.item__title {
+    color: #6E0C0C;
+    font-size: 16px; 
+}
+  
+.price {
+    float: right;
+    font-size: 16px;
+    color: #6E0C0C; 
+}
+  
+.ingredients {
+    color: #585858;
+    font-size: 10px;
+    margin: 0;
+    font-style: bold; 
+}
